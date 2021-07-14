@@ -37,6 +37,7 @@ export const pageSchema: DocumentType = {
           to: [
             { type: 'callToAction' },
             { type: 'hero' },
+            { type: 'campaign' },
             { type: 'personalizedCampaign' },
             { type: 'personalizedHero' },
             { type: 'registrationForm' },
