@@ -39,6 +39,7 @@ export const pageSchema: DocumentType = {
             { type: 'hero' },
             { type: 'campaign' },
             { type: 'personalizedCampaign' },
+            { type: 'personalizedCampaignBanner' },
             { type: 'personalizedHero' },
             { type: 'registrationForm' },
             { type: 'talksList' },

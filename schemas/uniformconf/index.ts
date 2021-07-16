@@ -3,6 +3,7 @@ import { campaignSchema } from './campaign';
 import { heroSchema } from './hero';
 import { pageSchema } from './page';
 import { personalizedCampaignSchema } from './personalizedCampaign';
+import { personalizedCampaignBannerSchema } from './personalizedCampaignBanner';
 import { personalizedHeroSchema } from './personalizedHero';
 import { registrationFormSchema } from './registrationForm';
 import { talkSchema } from './talk';
@@ -15,6 +16,7 @@ export default [
   heroSchema,
   pageSchema,
   personalizedCampaignSchema,
+  personalizedCampaignBannerSchema,
   personalizedHeroSchema,
   registrationFormSchema,
   talkSchema,
